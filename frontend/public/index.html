@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Moviemania - Discover and explore movies" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Moviemania - Discover Movies</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      .header {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+        border-bottom: 5px solid #e94e77;
+      }
+      .content {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .content h1 {
+        margin-top: 0;
+        color: #e94e77;
+      }
+      .movie-card {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fafafa;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .movie-card h2 {
+        margin-top: 0;
+        color: #333;
+      }
+      .movie-card p {
+        margin: 5px 0;
+      }
+      #root {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Static content to display before the React app -->
+    <div class="header">
+      <h1>Welcome to Moviemania</h1>
+      <p>Your go-to place for discovering and exploring movies</p>
+    </div>
+    <div class="content">
+      <h1>Featured Movies</h1>
+      <div class="movie-card">
+        <h2>Inception (2010)</h2>
+        <p><strong>Director:</strong> Christopher Nolan</p>
+        <p><strong>Genre:</strong> Science Fiction, Action</p>
+        <p><strong>Description:</strong> A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.</p>
+      </div>
+      <div class="movie-card">
+        <h2>The Matrix (1999)</h2>
+        <p><strong>Director:</strong> Lana Wachowski, Lilly Wachowski</p>
+        <p><strong>Genre:</strong> Science Fiction, Action</p>
+        <p><strong>Description:</strong> A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.</p>
+      </div>
+      <div class="movie-card">
+        <h2>Interstellar (2014)</h2>
+        <p><strong>Director:</strong> Christopher Nolan</p>
+        <p><strong>Genre:</strong> Science Fiction, Drama</p>
+        <p><strong>Description:</strong> A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+      </div>
+    </div>
+
+    <!-- React app will be mounted here -->
+    <div id="root"></div>
+
+  
+  </body>
+</html>
